@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"DM Sans",sans-serif;
+}
+
+header{
+    background-image: url(/img/background/bg1.png);
+    width: 100%;
+    height: 800px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.navbar{
+    background-color: #fff;
+    width: 100%;  
+    position: fixed;
+    box-shadow:  0 2px rgb(25 25 25 / 10%);
+}
+
+.wrap-navbar {
+   margin-left: 10%;
+   padding: 10px 0;
+}
+.wrap-navbar .logo{
+    margin-left: 10%;
+    padding-right: 34px;
+}
+
+.navbar-nav .nav-item{
+    padding: 0 12px;
+    transition: all 0.4s ease-in;
+    
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #999;
+    transition: all 0.4s ease-in;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #d34917;
+    
+}
+
+.navbar-nav .nav-item:hover{
+    
+    border-bottom: 3px solid #d34917;
+}
+
+.wrap-icon-header {
+    margin-right: 14%;    
+}
+
+.wrap-icon-header {
+    margin-right: 8%;    
+}
+
+.wrap-icon-header a{
+    font-size: 16px;
+    color: #f04506;
+    margin-right: 25px;
+}
+
+.wrap-icon-header .btn-order{
+    font-size: 16px;
+    color: #fff;
+    padding: 16px 37px;
+    border-radius: 30px;
+    background-color: #f04506;
+}
+
+.wrap-icon-header .btn-order:hover{
+    background-color: #d34917;
+}
+
+.header-content{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.header-content h1{
+    font-size: 66px;
+    padding: 19px 0 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: '"Quicksand",sans-serif';
+}
+
+.header-content p{
+    font-family: 'Quicksand",sans-serif';
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6;
+    max-width: 36rem;
+    margin-bottom: 40px;
+}
+
+.header-content button{
+    border: none;
+    padding: 18px 60px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Quicksand",sans-serif;
+    background-color: #f04506;
+}
+
+.header-content button:hover{
+    background-color: #d34917;
+}
+
+/* Populer */
+.popular{
+    padding: 110px 0;
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading-title p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    color: #f04506;
+    letter-spacing: 0.2em;
+}
+
+.heading-title h2{
+    font-size: 44px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+
+.card-item{
+    text-align: center;
+    width: 22rem;
+    background: #fff5f2;
+    padding: 20px;
+    border-radius: 0 0 60px 0;  
+}
+
+.img-banner-popular{
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 0 0 60px 0;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+    border-style: none;
+    transition: transform .9s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(0.9);
+}
+
+.card-body .card-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-right: 3px;
+    margin-bottom:19px;
+    transition: all .4s ease-in;
+}
+
+.card-body .card-title:hover{
+    color: #f04506;
+}
+
+.card-body .card-text{
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 0 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1.4px;
+}
+
+.card-body .btn-buy{
+    padding: 13px 37px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #f04506;
+}
+
+.card-body .btn-buy:hover{
+    background-color: #d34917;
+}
+/* End Populer */
+/* Star: More */
+.more{
+    padding-bottom: 110px;
+}
+
+.content-more-right{
+    padding: 0 50px;
+}
+
+.content-more-right span{
+    font-size: 16px;
+    margin: 0 0 22px;
+    color: #f04506;
+    letter-spacing: 0.2em; 
+}
+
+
+.content-more-right h2{
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    line-height: 1.1;
+    margin: 30px 0; 
+}
+
+.content-more-right p{
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.content-more-right a{
+    padding: 16px 26px;
+    color: #fff;
+    background-color: #f04506;
+    border-radius: 25px;
+}
+
+.content-more-right a:hover{
+    background-color: #d34917;
+}
+/* End: More*/
+
+/* Star: our features */
+
+.our-features{
+    background: #fff5f2;
+    padding: 110px 0;
+}
+
+.our-features-icon .icon{
+    border-radius: 50%;
+}
+
+.card-our-features{
+    text-align: center;
+    width: 22rem;
+    padding: 20px; 
+}
+
+.card-our-features:hover{
+    background-color: #fff;
+}
+/* End our features */
+
+.video-banner{
+    background-image: url(/img/banner/video-bg.png.webp);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+
+/* client-say */
+.card-client-say{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.client-say-lists{
+    padding: 60px 20px 40px 60px;
+    border-radius: 0 0 60px 0;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.client-say-lists .client-say-text{
+    font-size: 24px;
+}
+
+
+.client-say-icon{
+    padding-right: 20px;
+}
+
+.card-client-say .sub-man span{
+    font-size: 20px;
+    color:#f04506;
+}
+
+.card-client-say .sub-man p{
+    font-size: 14px;
+    color: #999;
+}
+/* client-say */
+/* Product */
+.product{
+    margin-bottom: 120px;
+}
+
+.product-img{
+    background-size: cover;
+    padding-left: 0 !important;
+    transition: all .4s ease-in-out;
+}
+
+.product-img:hover{
+    opacity: 0.9;
+}
+/* End Product*/
+
+/* Start: Footer */
+.wrap-footer{
+    margin-bottom: 60px;
+}
+
+.footer-logo{
+    margin-bottom: 35px;
+}
+
+.footer-title{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom:30px ;
+}
+
+.footer-social a{
+    font-size: 16px;
+    color: #fff;
+    background-color: #f04506;
+    margin-right: 15px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 6px;
+    position: relative;
+    transition: all .4s ease-in-out;
+    
+}
+
+.footer-social a:hover{
+    top: -5px;
+}
+
+.footer-title h4{
+    color: #5e5e5e;
+    opacity: 0.6;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.footer-title ul{
+    list-style: none; 
+}
+
+.footer-title li{
+    padding-bottom: 16px; 
+}
+
+.footer-title li > a{
+    color: #5e5e5e;
+    transition: all .3s ease-out 0s;
+}
+
+.footer-title a:hover{
+    color: #f04506;
+    border-bottom: 1px solid #f04506;
+}
+
+.footer-title p {
+    color: #5e5e5e;
+    font-size: 16px;
+}
+
+.footer-title > a {
+    color: #f04506;
+    font-size: 26px;
+}
+
+.footer-title > a:hover {
+    border-bottom: none;
+}
+
+.footer-copy-right i{
+    color: #f04506;
+}
+
+.footer-copy-right a{
+    color: #f04506;
+}
+/* End: Footer */
+
